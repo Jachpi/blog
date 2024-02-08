@@ -264,6 +264,73 @@ PascalCase. Esta es la convención de Rust.
 ver linkage
 
 # Operadores
+///Incluir operadores no disponibles en C///
+# Operadores Aritméticos
+- suma: `a + b`
+- suma y asignación: `a += b`
+- resta `a - b`
+- resta y asignación `a -= b`
+- multiplicación `a * b`
+- multiplicación y asignación `a *= b`
+- división `a / b`
+- división y asignación `a /= b`
+- módulo `a % b`
+- módulo y asignación `a %= b`
+- más unario `+a`
+- menos unario `-a`
+- incremento en prefijo `++a`
+- decremento en prefijo `--a`
+- incremento postfijo  `a++`
+- decremento postfijo `a--`
+  
+# Operadores de comparación
+- menor que `a < b`
+- mayor que  `a > b`
+- igual que `a == b`
+- igual o menor que  `a <= b`
+- igual o mayor que `a >= b`
+- distinto de `a != b`
+- comparación en tres sentidos `a <=> b`
+  
+# Operadores lógicos
+- NOT `!a`
+- AND `a && b`
+- OR `a || b`
+
+# Operadores a nivel de bit
+- desplazar a la izquierda `a << b`
+- asignación con desplazamiento a la izquierda `a <<= b`
+- desplazamiento a la derecha `a >> b`
+- asignación con desplazamiento a la derecha `a >>= b`
+- complemento a uno `~a`
+- AND binario `a & b`
+- asignación con AND `a &= b`
+- OR binario `a | b`
+- asignación con OR `a |= b`
+- XOR binario `a ^ b`
+- asignación con XOR `a ^= b`
+# Otros operadores
+- asignación básica `a = b`
+- llamada a función `a()`
+- índice de array `a[b]`
+- indirección (referencia indirecta) `*a`
+- dirección de (referencia) `&a`
+- miembro de puntero `a->b`
+- miembro `a.b`
+- desreferencia a miembro por puntero `a->*b`
+- desreferencia a miembro por objeto `a.*b`
+- conversión de tipo `(tipo) a`
+- coma `a , b`
+- condicional ternario `a ? b : c`
+- resolución de ámbito `a::b`
+- puntero a función miembro `a::*b`
+- tamaño de objeto `sizeof a`/`sizeof(tipo)`
+- identificación de tipo `typeid(a)`/`typeid(tipo)`
+- asignar espacio en memoria `new tipo`
+- asignar espacio en memoria (Vector) `new tipo[n]`
+- liberar espacio de memoria `delete a`
+- liberar espacio de memoria (Vector) `delete[] a`
+- referencia de valor derecho `&&a`
 ## Orden de los operadores
 ## Expresiones
 # Conversión de tipo
